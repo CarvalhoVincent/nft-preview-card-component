@@ -45,7 +45,7 @@ body {
         height: 278px;
         opacity: 0;
         transition: .5s ease;
-        background-color: #00FFF8;
+        background-color: hsla(178, 100%, 50%, 0.5);
 }
 
 .view {
@@ -58,10 +58,7 @@ body {
 }
 
 .preview:hover .overlay {
-        mix-blend-mode: normal;
-        opacity: 0.5;
-        border-radius: 8px;
-        background: #00FFF8;
+        opacity: 1;
         cursor: pointer;
 }
 
