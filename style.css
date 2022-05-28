@@ -184,12 +184,146 @@ body {
         color: hsl(228, 45%, 44%);
 }
 
+
+/* Responsive */
 @media screen and (min-width: 700px) {
-        .card {
-                
-                width: 350px;
-                height: 596px;
-                
-        }
-        
+.card {
+        width: 350px;
+        height: 596px;
+}
+
+.equilibrium {
+        width: 302px;
+        height: 302px;
+}
+
+.overlay {
+        width: 302px;
+        height: 302px;
+}
+
+.name {
+        left: 6.86%;
+        right: 6.86%;
+        top: 58.72%;
+        bottom: 36.58%;
+}
+
+.description {
+        left: 6.86%;
+        right: 6.86%;
+        top: calc(50% - 52px/2 + 122px);
+}
+
+.infos {
+        width: 301px;
+        height: 20px;
+        left: 24px;
+        top: 470px;
+}
+
+.price p {
+       font-size: 16px;
+       line-height: 20px;
+}
+
+.time p {
+     font-size: 16px;
+     line-height: 20px;  
+}
+
+.creator {
+        width: 302px;
+        height: 33px;  
+        left: 24px;
+        top: 514px;
+        margin-top: 0px;
+        padding-top: 16px;
+}
+
+.creator p {
+        font-size: 16px;
+        line-height: 20px;
+}
+
+.attribution {
+        font-size: 10px;
+}
+
+.attribution a {
+        font-size: 10px;
+}
+}
+
+
+@media screen and (max-width: 350px) {
+.card {
+        width: 175px;
+        height: 298px;
+}
+
+.equilibrium {
+        width: 151px;
+        height: 151px;
+}
+
+.overlay {
+        width: 151px;
+        height: 151px;
+}
+
+.name {
+        font-size: 11px;
+        line-height: 14px;
+}
+
+.description {
+        font-size: 9px; 
+        height: 26px;
+        top: 200px;
+}
+
+.infos {
+        width: 150px;
+        height: 10px;
+        left: 12px;
+        top: 235px;
+}
+
+.price p {
+       font-size: 8px;
+       line-height: 10px;
+}
+
+.time p {
+     font-size: 8px;
+     line-height: 10px;  
+}
+
+.creator {
+        width: 151px;
+        height: 16px;  
+        left: 12px;
+        top: 280px;
+        padding-top: 8px;
+}
+
+.creator img {
+        width: 16px;
+        height: 16px;
+        border-radius: 8px;
+}
+
+.creator p {
+        font-size: 8px;
+        line-height: 10px;
+}
+
+.attribution {
+        font-size: 6px;
+}
+
+.attribution a {
+        font-size: 6px;
+}
 }
